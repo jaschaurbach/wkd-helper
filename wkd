@@ -2,13 +2,13 @@
 
 if ! command -v gpg > /dev/null 2>&1
 then
-    echo "GPG nicht installiert."
+    echo "GPG not installed or not in your PATH."
     exit 1
 fi
 
 if [ $# -eq 0 ]
   then
-    echo "Keine Maliadresse übergeben"
+    echo "Please provide an email adress"
     exit 1
 fi
 
