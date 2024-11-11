@@ -1,5 +1,17 @@
 # WKD Helper
 
-Tired of always looking up the GPG commands to export your PGP Key for WKD? Be no more! 
+Tired of always looking up the GPG commands to export your PGP-key for WKD? Be no more!
 
-This script exports your PGP Key as WKD-Hash. Just invoke it followd by your email: `wkd jascha@jascha.wtf`
+WKD hashes are only available as the output of another pgp command. Instead of copy & pasting the hash this script is doing everyhting you need to get your PGP-key exported for WKD usage.
+
+This script exports your PGP Key as WKD hash.
+
+## Usage
+
+`$ wkd email@example.com`
+
+## Authors
+Authored by  
+*Jascha Urbach (2024)*
+
+WKD Helper is licensed under the beerware license. 
